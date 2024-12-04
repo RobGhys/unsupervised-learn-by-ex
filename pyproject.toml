@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "unsupervised-learn-by-ex"
+name = "deepul-master"
 version = "0.1.0"
 description = ""
 authors = ["Robin Ghyselinck <rghyselinck@gmail.com>"]
@@ -10,6 +10,7 @@ python = "^3.10"
 scipy = "^1.14.1"
 matplotlib = "^3.9.2"
 seaborn = "^0.13.2"
+torchvision = "^0.20.1"
 
 
 [build-system]

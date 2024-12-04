@@ -89,7 +89,7 @@ def calculate_is(samples):
         preds = []
         n_batches = int(math.ceil(float(len(samples)) / float(bs)))
         for i in range(n_batches):
-            sys.stdout.write(".")
+            sys.stdout.write("")
             sys.stdout.flush()
             inp = ptu.FloatTensor(samples[(i * bs):min((i + 1) * bs, len(samples))])
             pred = ptu.get_numpy(softmax(inp))
